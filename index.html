@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <!-- References for h3, h4 and body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&display=swap" rel="stylesheet">
 
     <title> Spinach, Tofu and Sesame Stiry-Fry</title>
     
@@ -15,47 +20,107 @@
       .wrapper{
         margin: auto;
         width: 1200px;
-        font-size: 16px;
       }
       
       .left_column{
-        width: 320px;
+        width: 420px;
         float: left;
         margin-left: 20px;
       }
       
-      h1, h2 {
-        .cabin-<uniquifier> {
+      .right_column{
+        width: 730px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      
+      .title_container{
+        height: 520px;
+      }
+      
+      .divider{
+        height: 5px;
+        background-color: #F4E9CD;
+      }
+      
+      h1, h2, h3{
         font-family: "Cabin", sans-serif;
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
-        font-variation-settings:"wdth" 100;
-        }
       }
       
-      .right_column{
-        width: 830px;
-        float: right;
-        margin-left: 10px;
-        margin-right: 20px;
+      h4, body{
+        font-family: "Noto Serif Devanagari", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+
+      h1{
+        padding-top: 5px;
+        font-size: 4.2em;
+        line-height: 0.9;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color: #FB5A4B;
+      }
+
+      h2{
+        font-size: 1.8em;
+        margin-top: 20px;
+        margin-bottom: 10px;
       }
       
-      .title_container{
-        height: 300px;
+      h3{
+        font-size: 1.5em;
+        margin-top: 10px;
+        color: #FB5A4B;
+        letter-spacing: 1.4px;
       }
+      
+      h4{
+        margin-bottom: 5px;
+        margin-top: 20px;
+      }
+      
+      p{
+        line-height: 1.15em;
+        width: 75%;
+        margin: 0px;
+      }
+      
+      ul{
+        line-height: 2.4em;
+      }
+      
+      body{
+        background-color: #22401A;
+        font-size: 16px;
+        line-height: 1.15em;
+        width: 75%;
+        margin: 0px;
+        color: #F4E9CD;
+      }
+      
     </style>
   </head>
   <body>
     <div class="wrapper">
       <div class="left_column">
         <div class="title_container">
-          <h1>
-            Spinach, Tofu and Sesame Stir-Fry
+          <h1 >
+              Spinach, Tofu<br>
+              and Sesame<br>
+              Stir-Fry<br>
           </h1>
           <h2>
             By: Martha Rose Shulman
           </h2>
+          <div class="divider">
+          </div>
           <h3>
             Yield: 3 Servings
           </h3>
@@ -81,7 +146,6 @@
         <h3>
           Preparation
         </h3>
-
         <h4>
           Step 1
         </h4>
@@ -97,7 +161,9 @@
         <h4>
           Tip
         </h4>
+        <p>
           Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
+        </p>
       </div>
     </div>
   </body>
